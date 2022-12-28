@@ -1,6 +1,6 @@
 {
   "name": "john-lor-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is the Lord of the Ring API sdk for only books",
   "repository": {
     "type": "git",
