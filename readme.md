@@ -83,6 +83,9 @@ Supported parmas and result fields for the `getBooks` function are listed below.
 | offset | number    |
 | page   | number    |
 
+
+### getBookById
+
 ```js
 getBookById(id: string): BookDto;
 ```
@@ -100,6 +103,8 @@ Supported parmas and result fields for the `getBookById` function are listed bel
 #### Result
 
 `BookDto`
+
+### getBookChaptersById
 
 ```js
 getBookChaptersById(id: number, pagenationParam: GetChapterDto): PagenationDto<ChapterDto>;
